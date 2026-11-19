@@ -21,8 +21,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?color_snake=#b026ff&color_dots=#303030,#e0b3ff,#c77dff,#9d4edd,#7b2cbf
-            dist/snake-dark.svg?color_snake=#d070ff&color_dots=#303030,#5a189a,#7b2cbf,#9d4edd,#c77dff
+            dist/snake.svg?color_snake=#b026ff&color_dots=#eff2f5,#aceebb,#4ac26b,#2da44e,#116329
+            dist/snake-dark.svg?color_snake=#d070ff&color_dots=#151b23,#033a16,#196c2e,#2ea043,#56d364
 
       - name: Hide the purple progress bar at the bottom
         run: |
