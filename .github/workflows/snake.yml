@@ -1,3 +1,4 @@
+
 name: Generate Contribution Snake
 
 on:
@@ -13,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate Snake Animation
+      - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: prathvirajahirwar
@@ -21,7 +22,35 @@ jobs:
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark&color_dots=%23151b23,%230e4429,%23006d32,%2326a641,%2339d353
 
-      - name: Deploy to Output Branch
+      - name: Remove unwanted bottom green bar
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+
+          path = "dist/snake-dark.svg"
+          tree = ET.parse(path)
+          root = tree.getroot()
+
+          def number(value):
+              if not value:
+                  return 0
+              return float(value.replace("px", ""))
+
+          for parent in root.iter():
+              for element in list(parent):
+                  if element.tag.endswith("rect"):
+                      width = number(element.get("width"))
+                      height = number(element.get("height"))
+
+                      # Remove long horizontal rectangles only
+                      if width > 100 and 0 < height <= 30:
+                          parent.remove(element)
+
+          tree.write(path, encoding="utf-8", xml_declaration=True)
+          print("Bottom horizontal bar cleanup completed.")
+          PY
+
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
