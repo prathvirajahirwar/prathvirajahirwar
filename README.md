@@ -14,6 +14,7 @@ Aspiring Data Analyst | Python | SQL | Excel | Exploring Data Analytics & Busine
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prathvirajahirwar/prathvirajahirwar/output/snake-dark.svg?v=3">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prathvirajahirwar/prathvirajahirwar/output/snake.svg?v=3">
+    <img src="https://raw.githubusercontent.com/prathvirajahirwar/prathvirajahirwar/output/snake-dark.svg?v=5" alt="snake animation" />
     <img alt="snake animation" src="https://raw.githubusercontent.com/prathvirajahirwar/prathvirajahirwar/output/snake-dark.svg?v=3">
   </picture>
 </div>
