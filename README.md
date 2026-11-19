@@ -11,7 +11,17 @@ Aspiring Data Analyst | Python | SQL | Excel | Exploring Data Analytics & Busine
 # GitHub Contributions:
 
 <div align="center">
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/prathvirajahirwar/prathvirajahirwar/output/snake-dark.svg?v=11" />
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/prathvirajahirwar/prathvirajahirwar/output/snake-dark.svg?v=12"/>
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/prathvirajahirwar/prathvirajahirwar/output/snake.svg?v=12"/>
+    <img
+      alt="GitHub Contribution Snake"
+      src="https://raw.githubusercontent.com/prathvirajahirwar/prathvirajahirwar/output/snake.svg?v=12"/>
+  </picture>
 </div>
 
 ---
