@@ -1,4 +1,3 @@
-
 name: Generate Contribution Snake
 
 on:
@@ -20,7 +19,7 @@ jobs:
           github_user_name: prathvirajahirwar
           outputs: |
             dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark&color_dots=%23151b23,%230e4429,%23006d32,%2326a641,%2339d353
+            dist/snake-dark.svg?color_snake=purple&color_dots=%23151b23,%230e4429,%23006d32,%2326a641,%2339d353&color_dot_border=%231b1f230a
 
       - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v4
