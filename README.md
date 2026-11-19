@@ -1,7 +1,6 @@
 
 # About Me:
 Hi! I'm Prathviraj Ahirwar, an undergraduate Computer Science engineering student.
-
 Aspiring Data Analyst | Python | SQL | Excel | Exploring Data Analytics & Business Intelligence
 
 ## Socials:
@@ -14,15 +13,16 @@ Aspiring Data Analyst | Python | SQL | Excel | Exploring Data Analytics & Busine
 
 <div align="center">
   <picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/prathvirajahirwar/prathvirajahirwar/output/snake-dark.svg?v=5">
-
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/prathvirajahirwar/prathvirajahirwar/output/snake.svg?v=5">
-
-  <img alt="GitHub Contribution Snake"
-    src="https://raw.githubusercontent.com/prathvirajahirwar/prathvirajahirwar/output/snake.svg?v=5">
-</picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/prathvirajahirwar/prathvirajahirwar/output/snake-dark.svg?v=4"/>
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/prathvirajahirwar/prathvirajahirwar/output/snake.svg?v=4"/>
+    <img
+      alt="GitHub Contribution Snake"
+      src="https://raw.githubusercontent.com/prathvirajahirwar/prathvirajahirwar/output/snake.svg?v=4"/>
+  </picture>
 </div>
 
 ---
