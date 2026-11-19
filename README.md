@@ -1,5 +1,6 @@
 # About Me:
-Computer Science Undergraduate | Aspiring Data Analyst | Python | SQL | Excel | Exploring Data Analytics & Business Intelligence<br>
+Hi! I'm Prathviraj Ahirwar, an undergraduate Computer Science engineering student.
+Aspiring Data Analyst | Python | SQL | Excel | Exploring Data Analytics & Business Intelligence<br>
 
 
 ## Socials:
