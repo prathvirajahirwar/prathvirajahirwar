@@ -1,15 +1,9 @@
-
 name: Generate Contribution Snake
 
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/workflows/snake.yml"
 
 permissions:
   contents: write
@@ -19,9 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
@@ -30,7 +21,7 @@ jobs:
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark&color_dots=%23151b23,%230e4429,%23006d32,%2326a641,%2339d353
 
-      - name: Deploy Snake Animation
+      - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
