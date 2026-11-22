@@ -1,5 +1,5 @@
 # About Me:
-Hi! I'm Prathviraj Ahirwar, an undergraduate Computer Science engineering student
+Hi! I'm Prathviraj Ahirwar, an undergraduate Computer Science engineering student.
 Aspiring Data Analyst | Python | SQL | Excel | Exploring Data Analytics & Business Intelligence
 
 ## Socials:
